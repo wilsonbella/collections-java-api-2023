@@ -21,13 +21,11 @@ public class CarrinhoDeCompras {
         }
         items.removeAll(listaParaRemover);
     }
-    public void calculaValorTotal(double preco, int quantidade){
-        List<Item> itensCalculados = new ArrayList<>();
-        for (Item i : items){
+    public double calculaValorTotal(double preco, int quantidade){
 
-            }
+       return preco * quantidade;
+    }
 
-        }
 
 
 
@@ -40,7 +38,10 @@ public class CarrinhoDeCompras {
         carrinhoDeCompras.adicionarItem("Pão",35, 2 );
         carrinhoDeCompras.adicionarItem("Feijão",65, 2);
 
-        System.out.println("o valor total dos itens é : " );
+
+        System.out.println("O valor total é " + carrinhoDeCompras.calculaValorTotal(65, 2));
+
+
 
     }
 }
