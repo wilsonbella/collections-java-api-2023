@@ -7,9 +7,11 @@ import java.util.List;
 public class OrdenacaoPessoas {
     private List<Pessoa> pessoaList;
 
-    public OrdenacaoPessoas(List<Pessoa> pessoaList) {
+    public OrdenacaoPessoas() {
         this.pessoaList = new ArrayList<>();
     }
+
+
     public void adicionarPessoa(String nome, int idade, double altura){
         pessoaList.add(new Pessoa(nome, idade, altura));
     }
@@ -27,4 +29,15 @@ public class OrdenacaoPessoas {
         return pessoasPorAltura;
     }
 
+    public static void main(String[] args) {
+        OrdenacaoPessoas ordenacaoPessoas = new OrdenacaoPessoas();
+        ordenacaoPessoas.adicionarPessoa("Andreia", 28, 1.65);
+        ordenacaoPessoas.adicionarPessoa("Bruno", 23, 1.84);
+        ordenacaoPessoas.adicionarPessoa("Carlos", 15, 1.75);
+        ordenacaoPessoas.adicionarPessoa("Denise", 37, 1.68);
+
+        System.out.println(ordenacaoPessoas.ordenarPorAltura());
+        System.out.println(ordenacaoPessoas.ordenarPorIdade());
+
+    }
 }

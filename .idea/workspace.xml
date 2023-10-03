@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43d5fef-4c52-4e09-af41-e193987363a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ordenacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/CadastroProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Set/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordenacao/OrdenacaoPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ordenacao/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +47,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CatalogoLivros">
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperacoesBasicas.CarrinhoDeCompras" />
+  <component name="RunManager" selected="Application.CadastroProdutos">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.AgendaContatos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OperacoesBasicas.*" />
+          <option name="PATTERN" value="Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.CadastroProdutos" />
+      <module name="collections-java-api-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperacoesBasicas.ListaTarefa" />
+    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Set.ConjuntoConvidados" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OperacoesBasicas.*" />
+          <option name="PATTERN" value="Set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ordenacao.OrdenacaoPessoas" />
+      <module name="collections-java-api-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,9 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CadastroProdutos" />
+        <item itemvalue="Application.AgendaContatos" />
+        <item itemvalue="Application.ConjuntoConvidados" />
+        <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
-        <item itemvalue="Application.ListaTarefa" />
       </list>
     </recent_temporary>
   </component>
